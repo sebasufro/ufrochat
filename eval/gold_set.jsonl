@@ -1,0 +1,191 @@
+# eval/gold_set.jsonl
+{
+    "id": 1,
+    "query": "¿Cuál es el objetivo principal del Reglamento de Régimen de Estudios de Pregrado?",
+    "expected_answer": "El objetivo es establecer las disposiciones generales que regulan las actividades docentes en las carreras y programas de pregrado de la Universidad de La Frontera.",
+    "references": [
+        {
+            "title": "Reglamento de Régimen de Estudios de Pregrado",
+            "url": "https://ufro.cl/normativa/rrep"
+        }
+    ]
+}
+{
+    "id": 2,
+    "query": "¿Qué niveles de logro en el Diagnóstico de Inglés Institucional son equivalentes a aprobar el requisito de inglés?",
+    "expected_answer": "El requisito se considera aprobado con un resultado de logro igual o mayor a 70% en el diagnóstico, lo que equivale a un nivel B1 o superior.",
+    "references": [
+        {
+            "title": "Reglamento de Régimen de Estudios de Pregrado",
+            "url": "https://ufro.cl/normativa/rrep"
+        }
+    ]
+}
+{
+    "id": 3,
+    "query": "¿Cuál es el plazo para la regularización académica y financiera de estudiantes de cursos superiores en enero de 2025?",
+    "expected_answer": "El período para la regularización de la situación académica y financiera de estudiantes de cursos superiores en enero de 2025 es del lunes 15 al viernes 26 de enero.",
+    "references": [
+        {
+            "title": "Calendario Académico 2025",
+            "url": "https://ufro.cl/calendario-academico"
+        }
+    ]
+}
+{
+    "id": 4,
+    "query": "¿Quién es el responsable de la aplicación de las normas del Reglamento de Estudios a nivel de Facultad?",
+    "expected_answer": "A nivel de Facultad, el responsable de la aplicación del Reglamento de Régimen de Estudios es el o la director(a) de Pregrado o autoridad equivalente, y en las carreras, el o la director(a) de carrera o de escuela, según sea el caso.",
+    "references": [
+        {
+            "title": "Reglamento de Régimen de Estudios de Pregrado",
+            "url": "https://ufro.cl/normativa/rrep"
+        }
+    ]
+}
+{
+    "id": 5,
+    "query": "¿Qué situaciones aborda el Reglamento de Convivencia Universitaria en los procesos de investigación?",
+    "expected_answer": "El reglamento aborda Violencia de Género, Acoso Sexual, Maltrato y Acoso Laboral, Académico y Estudiantil, además de Discriminación Arbitraria y discriminación de género.",
+    "references": [
+        {
+            "title": "Reglamento de Convivencia Universitaria",
+            "url": "https://ufro.cl/normativa/rcu"
+        }
+    ]
+}
+{
+    "id": 6,
+    "query": "¿Cuál es el periodo de receso universitario de enero y febrero de 2025?",
+    "expected_answer": "El receso universitario se extiende desde el lunes 29 de enero al viernes 23 de febrero de 2025.",
+    "references": [
+        {
+            "title": "Calendario Académico 2025",
+            "url": "https://ufro.cl/calendario-academico"
+        }
+    ]
+}
+{
+    "id": 7,
+    "query": "¿Qué es la Convalidación de estudios según el RREP?",
+    "expected_answer": "La Convalidación de estudios es el trámite que consiste en determinar la equivalencia de Resultados de Aprendizaje entre actividades curriculares cursadas y aprobadas en otra carrera o programa y las correspondientes actividades curriculares de la carrera o programa de destino.",
+    "references": [
+        {
+            "title": "Reglamento de Régimen de Estudios de Pregrado",
+            "url": "https://ufro.cl/normativa/rrep"
+        }
+    ]
+}
+{
+    "id": 8,
+    "query": "¿Qué debe hacer un estudiante si convalida una asignatura sin haber cursado sus prerrequisitos?",
+    "expected_answer": "El o la estudiante deberá cursar estos últimos (los prerrequisitos) tan pronto como se impartan. No obstante, podrá cursar las asignaturas para las cuales tiene convalidados los requisitos directos para favorecer su avance curricular.",
+    "references": [
+        {
+            "title": "Reglamento de Régimen de Estudios de Pregrado",
+            "url": "https://ufro.cl/normativa/rrep"
+        }
+    ]
+}
+{
+    "id": 9,
+    "query": "¿Qué tipos de estudios están disponibles en el sitio web de la Dirección de Equidad de Género de la UFRO?",
+    "expected_answer": "Están disponibles el 'Diagnóstico de la Situación y Relaciones de Género en la UFRO' (2020) y el 'Estudio de Riesgos de Acoso Sexual, violencia y discriminación de género al Interior de la UFRO' (2022).",
+    "references": [
+        {
+            "title": "Reglamento de Convivencia Universitaria",
+            "url": "https://ufro.cl/normativa/rcu"
+        }
+    ]
+}
+{
+    "id": 10,
+    "query": "¿Qué rangos de nota se utilizan en la escala de calificaciones de la UFRO?",
+    "expected_answer": "La escala de notas utilizada en la Universidad de La Frontera va desde el 1,0 al 7,0.",
+    "references": [
+        {
+            "title": "Reglamento de Régimen de Estudios de Pregrado",
+            "url": "https://ufro.cl/normativa/rrep"
+        }
+    ]
+}
+{
+    "id": 11,
+    "query": "¿Cómo fue construido el Reglamento de Convivencia Universitaria?",
+    "expected_answer": "Fue construido de forma participativa, triestamental y asegurando paridad de género, incluyendo la realización de jornadas de talleres con representantes de los tres estamentos.",
+    "references": [
+        {
+            "title": "Reglamento de Convivencia Universitaria",
+            "url": "https://ufro.cl/normativa/rcu"
+        }
+    ]
+}
+{
+    "id": 12,
+    "query": "¿Cuál es el plazo para solicitar el Diploma de Título Póstumo?",
+    "expected_answer": "Existe un plazo de dos años contados desde el deceso del estudiante para solicitar este diploma a la Vicerrectoría de Pregrado.",
+    "references": [
+        {
+            "title": "Reglamento de Régimen de Estudios de Pregrado",
+            "url": "https://ufro.cl/normativa/rrep"
+        }
+    ]
+}
+{
+    "id": 13,
+    "query": "¿Qué órgano universitario aprobó el Reglamento de Convivencia?",
+    "expected_answer": "Fue aprobado por el Acuerdo de la H. Junta Directiva de la Universidad de La Frontera en Sesión extraordinaria N°236 del 05 de diciembre de 2023, con previo informe favorable del Consejo Académico extraordinario N°296.",
+    "references": [
+        {
+            "title": "Reglamento de Convivencia Universitaria",
+            "url": "https://ufro.cl/normativa/rcu"
+        }
+    ]
+}
+{
+    "id": 14,
+    "query": "¿Cuál es la fecha límite para la Elección de carrera o mención en enero de 2025?",
+    "expected_answer": "El período para la Elección de carrera o de mención en las carreras que corresponda en Dirección de Carrera es del martes 2 a viernes 19 de enero de 2025.",
+    "references": [
+        {
+            "title": "Calendario Académico 2025",
+            "url": "https://ufro.cl/calendario-academico"
+        }
+    ]
+}
+{
+    "id": 15,
+    "query": "¿Cuál es el costo del arancel anual para la carrera de Ingeniería Civil Industrial este año?",
+    "expected_answer": "No encontrado en normativa UFRO. Sugiero contactar a la Dirección de Administración y Finanzas.",
+    "references": []
+}
+{
+    "id": 16,
+    "query": "¿Cuál es el procedimiento para solicitar una beca de alimentación si no fui beneficiado inicialmente?",
+    "expected_answer": "No encontrado en normativa UFRO. Sugiero contactar a la Dirección de Desarrollo Estudiantil.",
+    "references": []
+}
+{
+    "id": 17,
+    "query": "¿Puedo usar la biblioteca central durante el receso universitario de febrero?",
+    "expected_answer": "No encontrado en normativa UFRO. Sugiero contactar a la Dirección de Bibliotecas y Recursos de Información (DIBRI).",
+    "references": []
+}
+{
+    "id": 18,
+    "query": "¿Cuándo son las postulaciones a la Beca Presidente de la República 2025?",
+    "expected_answer": "No encontrado en normativa UFRO. Sugiero contactar a la Dirección de Desarrollo Estudiantil.",
+    "references": []
+}
+{
+    "id": 19,
+    "query": "¿Quién fue el fundador de la Universidad de Chile?",
+    "expected_answer": "No encontrado en normativa UFRO. Mi dominio es la normativa de la Universidad de La Frontera.",
+    "references": []
+}
+{
+    "id": 20,
+    "query": "¿Qué equipo ganó la Copa Libertadores 2025?",
+    "expected_answer": "No encontrado en normativa UFRO. Mi dominio es la normativa de la Universidad de La Frontera.",
+    "references": []
+}

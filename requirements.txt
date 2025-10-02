@@ -1,0 +1,13 @@
+# Proveedores LLM
+openai
+# Para DeepSeek, si existiera un SDK oficial, sino usaremos openai-compatible
+# En este caso, DeepSeek sugiere usar cliente OpenAI-compatible (H4), pero no es necesario para H1-H3
+
+# RAG - Ingesta, Chunking, Embeddings y FAISS
+pypdf>=4.0.2
+tiktoken>=0.6.0
+sentence-transformers==3.0.1
+faiss-cpu # Versión base, si se necesita la GPU sería faiss-gpu
+numpy>=1.26
+pandas>=2.2
+tqdm # Para visualización de progreso
