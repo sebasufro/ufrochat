@@ -21,6 +21,17 @@ def read_pdf(path: str) -> str:
         print(f"Error al leer PDF {path}: {e}")
         return ""
 
+def read_txt(path: str) -> str:
+    """Extrae texto de un archivo TXT."""
+    try:
+        # CORRECCIÓN CLAVE: Lee el contenido directamente con codificación UTF-8
+        with open(path, 'r', encoding='utf-8') as f:
+            text = f.read()
+        return text
+    except Exception as e:
+        print(f"Error al leer TXT {path}: {e}")
+        return ""
+
 def clean_and_normalize_text(text: str) -> str:
     """Limpia encabezados, pies de página y normaliza saltos de línea."""
     # 1. Eliminar múltiples saltos de línea (simulando limpieza de pies/encabezados por espacio)
