@@ -59,7 +59,7 @@ class DeepSeekProvider(LLMProvider):
         prompt_tokens = usage.get("prompt_tokens", 0)
         completion_tokens = usage.get("completion_tokens", 0)
 
-        prompt_cost = (prompt_tokens / 1000) * PRICE_PER_1K_PROMPT_DS
-        completion_cost = (completion_tokens / 1000) * PRICE_PER_1K_COMPLETION_DS
+        prompt_cost = (prompt_tokens / 1000) * self.PRICE_PER_1K_PROMPT_DS
+        completion_cost = (completion_tokens / 1000) * self.PRICE_PER_1K_COMPLETION_DS
 
         return prompt_cost + completion_cost
