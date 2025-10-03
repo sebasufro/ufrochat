@@ -9,8 +9,8 @@ import time
 class ChatGPTProvider(LLMProvider):
     """Adaptador para el API de OpenAI (GPT-3.5/GPT-4)."""
     
-    PRICE_PER_1K_PROMPT_DS = 0.00025   # Precio por 1,000 tokens de entrada
-    PRICE_PER_1K_COMPLETION_DS = 0.0010  # Precio por 1,000 tokens de salida
+    PRICE_PER_1K_PROMPT = 0.0005 # $0.50 USD por 1M de tokens de entrada
+    PRICE_PER_1K_COMPLETION = 0.0015 # $1.50 USD por 1M de tokens de salida
 
     def __init__(self, model: str = "gpt-3.5-turbo"):
         # La clave API se lee automáticamente desde la variable de entorno OPENAI_API_KEY
