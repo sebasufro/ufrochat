@@ -101,11 +101,17 @@ def load_and_chunk_docs(data_dir: str, sources_csv: str,
             continue
             
         # Determinar el lector según la extensión
-        if doc_path.lower().endswith(".pdf"):
+        file_extension = doc_path.lower().split('.')[-1]
+        
+        raw_text = ""
+        if file_extension == "pdf":
             raw_text = read_pdf(doc_path)
+        elif file_extension == "txt":
+            # Nuevo manejo para archivos de texto plano
+            raw_text = read_txt(doc_path)
         # Podrías agregar 'elif doc_path.lower().endswith((".html", ".htm")):' aquí para HTML.
         else:
-            print(f"Formato no soportado para {doc_path}. Saltando.")
+            print(f"Formato ({file_extension}) no soportado para {doc_path}. Saltando.")
             continue
             
         cleaned_text = clean_and_normalize_text(raw_text)
