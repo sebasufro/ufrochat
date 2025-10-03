@@ -9,9 +9,15 @@ import time
 class ChatGPTProvider(LLMProvider):
     """Adaptador para el API de OpenAI (GPT-3.5/GPT-4)."""
     
+    PRICE_PER_1K_PROMPT_DS = 0.00025   # Precio por 1,000 tokens de entrada
+    PRICE_PER_1K_COMPLETION_DS = 0.0010  # Precio por 1,000 tokens de salida
+
     def __init__(self, model: str = "gpt-3.5-turbo"):
         # La clave API se lee automáticamente desde la variable de entorno OPENAI_API_KEY
-        self.client = OpenAI()
+        self.client = OpenAI(
+            api_key=os.environ.get("OPENAI_API_KEY"),
+            base_url="https://openrouter.ai/api/v1" 
+        )
         self.model = model
         self._name = f"ChatGPT ({model})"
 
